@@ -2,12 +2,16 @@
 import './App.css';
 
 function App() {
-  const name = " Alex"
+  const name = <h1>"Alex"</h1>
   return (
     <div className="App">
-      <h1>{name}</h1>
-      <h1>{name}</h1>
-      <h1>{name}</h1>
+      {name}
+      {name}
+      {name}
+      {name}
+
+
+
 
       </div>
   );
