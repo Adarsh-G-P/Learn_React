@@ -2,9 +2,14 @@
 import './App.css';
 
 function App() {
-  const name = " zxzxzx"
+  const name = " Alex"
   return (
-    <div className="App">{name}</div>
+    <div className="App">
+      <h1>{name}</h1>
+      <h1>{name}</h1>
+      <h1>{name}</h1>
+
+      </div>
   );
 }
 
