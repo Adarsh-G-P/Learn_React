@@ -2,9 +2,9 @@
 import './App.css';
 
 function App() {
-  
+  const name = " zxzxzx"
   return (
-    <div className="App">Hello React_Learning</div>
+    <div className="App">{name}</div>
   );
 }
 
