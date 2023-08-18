@@ -2,10 +2,12 @@
 import './App.css';
 
 function App() {
-  const name =["Alex","Aliya","Omer","Fiza"];
+  const names =["Alex","Aliya","Omer","Fiza","Peter"];
     return (
     <div className="App">
-      <h1>{name[2]}</h1>
+      {names.map((name) => {
+        return <h1 > {name}</h1>
+      })}
       </div>
     );
  
