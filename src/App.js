@@ -2,15 +2,14 @@
 import './App.css';
 
 function App() {
-  const age = 22
-  if(age>=18){
-    return <h1>OVER AGE</h1>;
-  }
-  else{
-    return <div className="App"><h1>UNDER AGE</h1></div>;
-  }
+  const age =5
+    return (
+    <div className="App">
+      {age>=18 ? <h1>Over age</h1> : <h1>Under age</h1>}
+      </div>
+    );
  
-  
+   
 }
 
 export default App;
